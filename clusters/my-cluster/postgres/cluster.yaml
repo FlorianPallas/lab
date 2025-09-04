@@ -5,13 +5,17 @@ metadata:
   namespace: flux-system
 spec:
   instances: 3
-
-  # Example of rolling update strategy:
-  # - unsupervised: automated update of the primary once all
-  #                 replicas have been upgraded (default)
-  # - supervised: requires manual supervision to perform
-  #               the switchover of the primary
   primaryUpdateStrategy: unsupervised
+
+  bootstrap:
+    initdb:
+      database: app
+      owner: app
+      secret:
+        name: my-postgres-app-user
+
+  superuserSecret:
+    name: my-postgres-superuser
 
   # Persistent storage configuration
   storage:
