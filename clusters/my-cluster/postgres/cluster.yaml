@@ -12,10 +12,7 @@ spec:
       database: app
       owner: app
       secret:
-        name: my-postgres-app-user
-
-  superuserSecret:
-    name: my-postgres-superuser
+        name: my-postgres-app
 
   # Persistent storage configuration
   storage:

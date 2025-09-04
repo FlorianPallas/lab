@@ -1,0 +1,16 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: my-postgres-app
+  namespace: flux-system
+spec:
+  encryptedData:
+    password: AgAIbH1H6krwG+aP0DDhi8KPpZftu68uIEuErkrFPT0LbN0FFPQOPuzCVxAkmJvOM7ytqZbr6l90ICnZZ8cEUdZgW3L2urtcmASSWPFqa8vTWUE9LPLYd/pPMn7QKZ4t/XPEOaUTuSECAy++kus+5nOmUdV1cSCavwLwZDIpg0QhV49gIrEWSGuvnTsYRUA9YnaK/WCmlKJw/fnmPdaspwJb4Q3EvzUKgJjVIG/KniFYFbgEeP9m2iiZ6yb1BdhIQ3HJJdhsHAi5YOG2+koU9Y68ktBv2gEvx65TRNK5qoqU8cpRBbLdFzrYBDJ+QSge3mlAY2teIZSD5bDju1o3slUtFYCmcVZ++btId8L7R50dJ+dDPezCBQKjwtKvtBCuC/H2wYLaGxLOadW2+m+5UZmHb+G5Y+YkXo6ZftFnZw96MFnxTLvG+dZ89iqErtgiHvtXOwZJrx1zefAM52hg9abgMrTb2HP7bto0dvxl/WN+74u/c2dCAMg/79u5HnHoP8XS5ZC4ynEpi/NQGMLjBCJVTdFuh3/xrRn/TGUfVJQN/GZcDo47n8YFRybTf7BDqiMrTn1pe/N4vdw6e6aO7DuLZxjgecpeSvg6L8vtQIdaRTIQqZmu6IBrQHwojZnYtwcxc81KVKMphlWQmUDSKRgbz4a1T0GaWUpXqzlMFJnO/qxetfGcCkE+QSqfh3oPFHj0ycov
+    user: AgBr7iUqJ0ofNVRjAGE3xQOrfwfmTjyB6D+DNWAPwj6DScQ3B4EyhcCDxKUhTNK0s/yhJlDEBJOqrTEkT2QNmKWM1T94+OYs9eenGbPZTMyh+6KPkTYteM/735ETlPODe4SW3Mi1EDiP6gjRL3HB5bMAlfobrBalIGczAtKGl8Ij1UlBZFFqX4n3dE+qUiT6EGvJ9tqXpyjFn6C6RCKA8i58OsMnSumN47gm+YbwTAgY8q2O6+2GNXJHqnBKyVAJO/ZdL6q5jE+wmugANPrBD/SwGC2YGT7DM7iPE0pfSWaQJkbC17AQb6sBlWPnZhItDnKEGRvuNpLxXaMyR4+KS/RIinJlkgp/K6r33zsRUfM+HhunLpLfoUObLaw18Fz/Ijhp692/Yu77klWeMNoUrC3GRC9yekHMfGx1LlflJ3yKxati+2FkYkelfoyYcosaLg6VWVC8z3Q+pPbiyocypKVEXq+gW3MTSSP7nO/KjxsHaWroYejI8ELHDXHM6TGW+2ZgrxCLsrlb3G9D2Tg4Py3f/TpsQUbIapGVOwcYE2eqC6t1uh3FsQi58zemhFBX/6svU4OpGBFCHmNJvHDXDp9e0izPzqUPI0HZSelsa3Jijl9ULBFqhwntdRQzCULLKiUmq6rmBmeNpxuHrQWeJm833/mIrr0uoskz7Ee00Uk9ed/VhuJS6VAks5GNLJn/JGurFG+lkw==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: my-postgres-app
+      namespace: flux-system
